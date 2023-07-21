@@ -1,0 +1,21 @@
+@use "../../assets/styles/" as *;
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: pixRem(20) pixRem(0);
+
+  @include md() {
+    padding: pixRem(18) pixRem(0);
+  }
+  @include sm() {
+    padding: pixRem(12) pixRem(20);
+  }
+
+  p {
+    color: black;
+    text-align: center;
+  }
+}

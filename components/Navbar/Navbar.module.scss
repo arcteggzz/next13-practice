@@ -1,0 +1,9 @@
+@use "../../assets/styles/" as *;
+
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1000;
+  background-color: red;
+}

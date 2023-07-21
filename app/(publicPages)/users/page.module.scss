@@ -1,0 +1,11 @@
+@use "../../../assets/styles/" as *;
+
+.UsersPage {
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+  text-align: center;
+}
